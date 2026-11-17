@@ -6,6 +6,8 @@ Turn rows like who → did what → to what into an interactive graph. Load a CS
 
 **Good for:** Process trees, insider risk, EDR exports, anything that's really a graph pretending to be a spreadsheet.
 
+**Processes view:** load a Microsoft Defender for Endpoint device timeline (the portal's CSV export or Advanced Hunting results) and Spoke lists every process as a tree. Pick one to read what it did in time order, then click a child process to follow it. Alerts and events you marked in the portal are flagged, runs of repeated activity collapse into one line, and a whole branch can be merged into one timeline.
+
 **Live:** https://jon.glass/spoke/
 
 A single self-contained page with no build step. Open `index.html` or serve the folder over HTTPS.
